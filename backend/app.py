@@ -8,7 +8,7 @@ class RequestHandler(BaseHTTPRequestHandler):
             # Cria um dicionário com a resposta
             data = {
                 'message': 'Oi do microservice Backend!',
-                'info': 'Aqui um exemplo simples de microservice.'
+                'info': 'Aqui um exemplo de microservice.'
             }
 
             # Converte o dicionário em JSON
