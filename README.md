@@ -1,13 +1,13 @@
 # Microservices Example
 
-Este repositório contém um exemplo simples de arquitetura baseada em microserviços, composta por um backend em Python e um frontend com Nginx. O projeto está conteinerizado utilizando Docker e pode ser executado localmente com Docker Compose.
+Este repositório contém um exemplo de arquitetura baseada em microserviços, composta por um backend em Python e um frontend com Nginx. O projeto está conteinerizado utilizando Docker e pode ser executado localmente com Docker Compose.
 
 ## Estrutura do Repositório
 
 ```
 .
 ├── backend
-│   ├── app.py           # Servidor HTTP simples em Python
+│   ├── app.py           # Servidor HTTP em Python
 │   └── Dockerfile       # Dockerfile para o backend
 ├── frontend
 │   ├── index.html       # Interface do frontend
@@ -20,7 +20,7 @@ Este repositório contém um exemplo simples de arquitetura baseada em microserv
 
 - **Docker** - Para conteinerização das aplicações.
 - **Docker Compose** - Para orquestrar os containers.
-- **Python (Backend)** - Servidor HTTP simples para fornecer uma API.
+- **Python (Backend)** - Servidor HTTP para fornecer uma API.
 - **Nginx (Frontend)** - Servidor web para servir a interface e fazer proxy para o backend.
 
 ## Como Executar
@@ -52,7 +52,7 @@ O backend responde a requisições GET na rota `/api/data`. Exemplo de resposta 
 ```json
 {
     "message": "Oi do microservice Backend!",
-    "info": "Aqui um exemplo simples de microservice."
+    "info": "Aqui um exemplo de microservice."
 }
 ```
 
