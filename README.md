@@ -27,7 +27,7 @@ Este repositório contém um exemplo simples de arquitetura baseada em microserv
 
 ### 1. Clonar o repositório
 ```sh
-git clone https://github.com/seu-usuario/docker-microservice.git  
+https://github.com/eliezershell/docker-microservice.git
 cd docker-microservice
 ```
 
