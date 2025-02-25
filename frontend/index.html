@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Microservice</title>
+    <script>
+        window.onload = function() {
+            fetch('http://localhost/api')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('message').innerText = data.message;
+                    document.getElementById('info').innerText = data.info;
+                });
+        };
+    </script>
+</head>
+<body>
+    <h1>Frontend Microservice</h1>
+    <p id="message">Carregando...</p>
+    <p id="info"></p>
+</body>
+</html>
